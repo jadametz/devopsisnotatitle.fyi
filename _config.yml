@@ -1,0 +1,22 @@
+title: DevOps is not a title
+description: >-
+  DevOps is not a title. It's a methodology.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://devopsisnotatitle.fyi"
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - README.md
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
